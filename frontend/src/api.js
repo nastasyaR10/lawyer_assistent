@@ -1,5 +1,4 @@
 // src/api.js
-//const API_URL = import.meta.env.VITE_API_URL || "/api";
 
 export class ApiError extends Error {
   constructor(message, { status = 0, code = null, retryable = false } = {}) {
