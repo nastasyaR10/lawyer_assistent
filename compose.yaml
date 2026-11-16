@@ -9,8 +9,6 @@ services:
     container_name: lawyer-backend
     ports:
       - "8000:8000"
-    env_file:
-      - .env
     environment:
       - CORE_MODE=${CORE_MODE:-mock}
       - DATA_DIR=/app/data
