@@ -9,7 +9,7 @@
 ## Запуск
 
 ```bash
-export export CORE_MODE=real
+export CORE_MODE=real
 docker compose up --build
 ```
 URL: http://localhost:3000
